@@ -34,6 +34,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/usr/include/mysql"/>
 					<Add directory="/usr/include/c++/5"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
 					<Add directory="/usr/include/c++/5/backward"/>
@@ -57,6 +58,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/usr/include/mysql"/>
 					<Add directory="/usr/include/c++/5"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
 					<Add directory="/usr/include/c++/5/backward"/>
@@ -84,6 +86,18 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/cwb/CLionProjects/CwbChatServer/CwbMysql.cpp">
+			<Option target="CwbChatServer"/>
+		</Unit>
+		<Unit filename="/home/cwb/CLionProjects/CwbChatServer/CwbMysql.h">
+			<Option target="CwbChatServer"/>
+		</Unit>
+		<Unit filename="/home/cwb/CLionProjects/CwbChatServer/MyTcpSocket.cpp">
+			<Option target="CwbChatServer"/>
+		</Unit>
+		<Unit filename="/home/cwb/CLionProjects/CwbChatServer/MyTcpSocket.h">
+			<Option target="CwbChatServer"/>
+		</Unit>
 		<Unit filename="/home/cwb/CLionProjects/CwbChatServer/main.cpp">
 			<Option target="CwbChatServer"/>
 		</Unit>

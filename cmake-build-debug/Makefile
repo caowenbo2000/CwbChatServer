@@ -123,6 +123,60 @@ CwbChatServer/fast:
 	$(MAKE) -f CMakeFiles/CwbChatServer.dir/build.make CMakeFiles/CwbChatServer.dir/build
 .PHONY : CwbChatServer/fast
 
+CwbMysql.o: CwbMysql.cpp.o
+
+.PHONY : CwbMysql.o
+
+# target to build an object file
+CwbMysql.cpp.o:
+	$(MAKE) -f CMakeFiles/CwbChatServer.dir/build.make CMakeFiles/CwbChatServer.dir/CwbMysql.cpp.o
+.PHONY : CwbMysql.cpp.o
+
+CwbMysql.i: CwbMysql.cpp.i
+
+.PHONY : CwbMysql.i
+
+# target to preprocess a source file
+CwbMysql.cpp.i:
+	$(MAKE) -f CMakeFiles/CwbChatServer.dir/build.make CMakeFiles/CwbChatServer.dir/CwbMysql.cpp.i
+.PHONY : CwbMysql.cpp.i
+
+CwbMysql.s: CwbMysql.cpp.s
+
+.PHONY : CwbMysql.s
+
+# target to generate assembly for a file
+CwbMysql.cpp.s:
+	$(MAKE) -f CMakeFiles/CwbChatServer.dir/build.make CMakeFiles/CwbChatServer.dir/CwbMysql.cpp.s
+.PHONY : CwbMysql.cpp.s
+
+MyTcpSocket.o: MyTcpSocket.cpp.o
+
+.PHONY : MyTcpSocket.o
+
+# target to build an object file
+MyTcpSocket.cpp.o:
+	$(MAKE) -f CMakeFiles/CwbChatServer.dir/build.make CMakeFiles/CwbChatServer.dir/MyTcpSocket.cpp.o
+.PHONY : MyTcpSocket.cpp.o
+
+MyTcpSocket.i: MyTcpSocket.cpp.i
+
+.PHONY : MyTcpSocket.i
+
+# target to preprocess a source file
+MyTcpSocket.cpp.i:
+	$(MAKE) -f CMakeFiles/CwbChatServer.dir/build.make CMakeFiles/CwbChatServer.dir/MyTcpSocket.cpp.i
+.PHONY : MyTcpSocket.cpp.i
+
+MyTcpSocket.s: MyTcpSocket.cpp.s
+
+.PHONY : MyTcpSocket.s
+
+# target to generate assembly for a file
+MyTcpSocket.cpp.s:
+	$(MAKE) -f CMakeFiles/CwbChatServer.dir/build.make CMakeFiles/CwbChatServer.dir/MyTcpSocket.cpp.s
+.PHONY : MyTcpSocket.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -159,6 +213,12 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... CwbChatServer"
 	@echo "... edit_cache"
+	@echo "... CwbMysql.o"
+	@echo "... CwbMysql.i"
+	@echo "... CwbMysql.s"
+	@echo "... MyTcpSocket.o"
+	@echo "... MyTcpSocket.i"
+	@echo "... MyTcpSocket.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

@@ -1,6 +1,9 @@
+#include <mysql.h>
 #include <iostream>
-
-int main() {
-    std::cout << "Hello, World!" << std::endl;
+#include <stdio.h>
+#include "CwbMysql.h"
+int main()
+{
+    CwbMysql temp ;
     return 0;
 }

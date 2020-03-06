@@ -1,1 +1,1 @@
-/usr/bin/c++  -g   CMakeFiles/CwbChatServer.dir/main.cpp.o  -o CwbChatServer 
+/usr/bin/c++  -g   CMakeFiles/CwbChatServer.dir/main.cpp.o CMakeFiles/CwbChatServer.dir/MyTcpSocket.cpp.o CMakeFiles/CwbChatServer.dir/CwbMysql.cpp.o  -o CwbChatServer -lmysqlclient 
