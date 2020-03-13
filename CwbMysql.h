@@ -5,13 +5,13 @@
 #ifndef CWBCHATSERVER_CWBMYSQL_H
 #define CWBCHATSERVER_CWBMYSQL_H
 #include <mysql.h>
-
+#include "Msg.h"
 class CwbMysql
 {
 public:
     CwbMysql();
     ~CwbMysql();
-    void CwbSqlQuery();
+    bool CwbSqlQuery(LogMsg CurLog);
 private:
     MYSQL *Cwbsql;
 };

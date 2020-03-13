@@ -92,6 +92,9 @@
 		<Unit filename="/home/cwb/CLionProjects/CwbChatServer/CwbMysql.h">
 			<Option target="CwbChatServer"/>
 		</Unit>
+		<Unit filename="/home/cwb/CLionProjects/CwbChatServer/Msg.h">
+			<Option target="CwbChatServer"/>
+		</Unit>
 		<Unit filename="/home/cwb/CLionProjects/CwbChatServer/MyTcpSocket.cpp">
 			<Option target="CwbChatServer"/>
 		</Unit>

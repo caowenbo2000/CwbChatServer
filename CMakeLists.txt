@@ -3,8 +3,7 @@ project(CwbChatServer)
 
 set(CMAKE_CXX_STANDARD 11)
 #set(CMAKE_BUILD_TYPE Debug)
-add_executable(CwbChatServer main.cpp MyTcpSocket.cpp MyTcpSocket.h CwbMysql.cpp CwbMysql.h)
-
+add_executable(CwbChatServer main.cpp MyTcpSocket.cpp MyTcpSocket.h CwbMysql.cpp CwbMysql.h Msg.h)
 
 
 set(INC_DIR /usr/include/mysql/)
